@@ -32,7 +32,7 @@ clean:
 # 安装目标（可选，将库安装到系统目录）
 install:
 	cp $(EXEC) ${PREFIX}/lib/
-	cp -r ./include/* ${PREFIX}/include/
+	cp -r ./SDL2_image-2.8.2/include/* ${PREFIX}/include/
 
 # 安装开发头文件（可选）
 install-headers:
