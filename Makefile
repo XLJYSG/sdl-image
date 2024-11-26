@@ -9,7 +9,7 @@ EXEC = libSDL_image.a  # 最终生成的静态库
 # 编译器和编译选项
 CC = gcc
 CFLAGS = -Wall -g \
-         -I/${PREFIX}/include/SDL2 -I/${PREFIX}/include/SDL2 -I$(INCLUDE_DIR)
+         -I/${PREFIX}/include/SDL -I/${PREFIX}/include/SDL -I$(INCLUDE_DIR)
 
 LDFLAGS = -L/usr/local/lib -L/usr/lib                 # 库文件路径
 LIBS = -lSDL2 -lSDL2_image -lpng -ljpeg -lz           # 需要链接的库，包含 SDL2 和图像处理库
